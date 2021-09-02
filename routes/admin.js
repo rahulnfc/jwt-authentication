@@ -8,6 +8,5 @@ router.get('/admin-login', checkAdmin, adminController.getLogin);
 router.post('/admin-login', adminController.postLogin);
 router.get('/admin-logout', adminController.logout);
 
-// Get average runtime of successful runs in seconds
 
 module.exports = router;
